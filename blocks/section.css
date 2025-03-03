@@ -1,0 +1,26 @@
+.section {
+  padding: 25px 0 25px;
+}
+
+.section__title {
+  font-family: "Young Serif", serif;
+  font-size: 28px;
+  font-weight: 400;
+  color: hsl(14, 45%, 36%);
+  margin: 10px 0 30px;
+}
+
+.section__division {
+  margin: 0;
+  border: solid 1px hsl(30, 18%, 87%);
+}
+
+@media screen and (max-width: 375px) {
+  .section_type_mb-screen {
+    padding: 25px 32px;
+  }
+
+  .section__division_type_mb-screen {
+    margin: 0 32px;
+  }
+}

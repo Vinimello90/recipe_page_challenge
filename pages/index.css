@@ -1,0 +1,11 @@
+@import url("../vendor/normalize.css");
+@import url("../vendor/fonts.css");
+@import url("../blocks/page.css");
+@import url("../blocks/recipe-page.css");
+@import url("../blocks/header.css");
+@import url("../blocks/preparation-time.css");
+@import url("../blocks/list.css");
+@import url("../blocks/section.css");
+@import url("../blocks/nutrition.css");
+@import url("../blocks/table-item.css");
+@import url("../blocks/attribution.css");

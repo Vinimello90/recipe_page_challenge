@@ -1,0 +1,18 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(30, 54%, 90%);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Outfit, sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+  color: hsl(30, 10%, 34%);
+}
+
+@media screen and (max-width: 375px) {
+  .page_type_mb-screen {
+    background-color: white;
+  }
+}

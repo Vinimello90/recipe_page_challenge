@@ -1,0 +1,21 @@
+.preparation-time {
+  background-color: hsl(330, 100%, 98%);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.preparation-time__title {
+  font-size: 20px;
+  margin: 10px 0 15px;
+}
+
+.preparation-time__title_type_color {
+  color: hsl(332, 51%, 32%);
+}
+
+@media screen and (max-width: 375px) {
+  .preparation-time_type_mb-screen {
+    margin: 0 32px;
+    padding: 20px 30px;
+  }
+}

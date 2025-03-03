@@ -1,0 +1,26 @@
+.list {
+  margin: 0;
+  padding-left: 23px;
+}
+
+.list-item {
+  padding-left: 15px;
+  padding-bottom: 10px;
+}
+
+.list-item__instruction-title {
+  font-weight: bold;
+}
+
+.list-item::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+.list_preparation-time_list-item-marker .list-item::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+.list-item__content {
+  margin: 0;
+}
